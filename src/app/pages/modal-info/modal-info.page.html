@@ -1,0 +1,14 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>{{nombre}} - {{pais}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-no-padding">
+  <ion-button (click)="salirsinArgumentos()" expand="block">
+    Salir sin argumentos
+  </ion-button>
+  <ion-button (click)="salirconArgumentos()" expand="block">
+    Salir con argumentos
+  </ion-button>
+</ion-content>
